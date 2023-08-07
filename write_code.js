@@ -8,6 +8,10 @@ function addToZero(arr) {
         }
     } return answer
 }
+
+//AddtoZero would have a runtime of O(n^2) and spce complexity of O(n)
+
+
 //console.log(addToZero([]));
 // -> False
 //.log(addToZero([1]));
@@ -16,8 +20,6 @@ function addToZero(arr) {
 // -> False
 //console.log(addToZero([1, 2, 3, -2]));
 // -> True
-
-//AddtoZero would have a runtime of O(n^2)
 
 
 function hasUniqueChars(str) {
@@ -31,6 +33,8 @@ function hasUniqueChars(str) {
         }
     } return answer
 }
+
+//hasUniqueChars would have a runtime of O(n^2) and spce complexity of O(n)
 
 // console.log(hasUniqueChars("Monday"));
 // -> True
@@ -55,6 +59,8 @@ function isPangram(str) {
     }
 }
 
+//isPangram would have a runtime of O(n^2) and spce complexity of O(n)
+
 // console.log(isPangram("The quick brown fox jumps over the lazy dog!"));
 // -> True
 // console.log(isPangram("I like cats, but not mice"));
@@ -68,5 +74,8 @@ function findLongestWord(arr) {
         }
     } return longestLength
 }
+
+//findLongestWord would have a runtime of O(n) and spce complexity of O(1)
+
 console.log(findLongestWord(["hi", "hello", "hey"]));
 // -> 5)
